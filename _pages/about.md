@@ -1,8 +1,11 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /quem-somos/
+title: "Quem Somos"
 ---
+## Visão, Missão & Valores
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Nossa visão e expandir ainda mais o crescimento do segmento de construção civil no Paraná, sendo referencia no ramo e proporcionando emprego e crescimento para a população.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Nossa missão é entregar serviços de alta qualidade por um valor acessível ao cliente e dessa forma ajudá-lo a realizar o seu sonho.
+
+Nossos valores são o comprometimento com a qualidade e prazos de entrega. Colocar o cliente sempre em primeiro lugar e proporcionar a ele a melhor experiência possível com obras, reformas, manutenções, instalações e projetos.

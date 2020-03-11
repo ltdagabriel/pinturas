@@ -27,7 +27,8 @@
         <div class="carousel__track">
           <ul>
             {% for item in site.posts %}
-            <li class="carousel__slide" style="background-image: url('{{ item.gallery[0].url }}');" ></li>
+            <li class="carousel__slide" style="background-image: url('{{ item.gallery[0].image_path | relative_url }}');" ></li>
+              <h3>Ola</h3>
             {% endfor %}
           </ul>
         </div>

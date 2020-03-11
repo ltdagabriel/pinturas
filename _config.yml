@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   zela pelo bom serviço prestado e entrega pedidos em tempo preciso. Conhecimento em Pintura de acabamento fino.
 twitter_username: Vchoptian
 github_username: ltdagabriel
-minimal_mistakes_skin: aqua
+minimal_mistakes_skin: dark
 search: true
 locale: pt-BR
 # Build settings
@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "Vanderson"
-  avatar : "/assets/images/bio_photo.jpg"
+  avatar :
   bio    : "Carreira desenvolvida na área de Engenharia Civil, com experiência no acompanhamento, planejamento e controle de obras."
   links:
     - label: "Website"

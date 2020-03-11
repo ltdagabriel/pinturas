@@ -22,6 +22,6 @@ if __name__ == "__main__":
         f.write("tags:\n")
         f.write("gallery:\n")
         for j in i.glob("*"):
-            f.write("  - image_path: "+ str(j) +"\n")
-            f.write("    url: "+ str(j) +"\n")
+            f.write("  - image_path: /"+ str(j.as_posix()) +"\n")
+            f.write("    url: /"+ str(j.as_posix()) +"\n")
         f.write("---\n")

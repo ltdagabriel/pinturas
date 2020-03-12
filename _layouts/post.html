@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="row container grey darken-2 white-text z-depth-2">
+    <div class="caption center-align orange-text ">
+        <h4>{{ page.title }}</h4>
+        <h5 class="light orange-text text-lighten-3">{{ page.local }}</h5>
+    </div>
+    <p class="post-meta">
+        {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span
+            itemprop="name">{{ page.author }}</span></span>
+        {% endif %}
+    </p>
+
+    <div class="row">
+        {% for imagem in page.gallery %}
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <img class=" materialboxed"  width="100%" src="{{imagem.url | relative_url }}">
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    {{ content }}
+
+    {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+    {% endif %}
+</div>
+</div>

@@ -1,21 +1,122 @@
 ---
-layout: archive
+layout: default
 ---
 
+<div class="container grey darken-2 white-text z-depth-2">
+    <div class="section">
+        <div class="slider">
+            <ul class="slides z-depth-5 large" style="background: white; opacity: 0.9">
+                {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url | relative_url }}">
+                        <img src="{{ post.gallery[0].url | relative_url }}">
+                        <div class="caption center-align outline">
+                            <h4>{{ post.title | escape }}</h4>
+                            <h5 class="light grey-text text-lighten-3">{{ post.content | truncatewords: 10 }}</h5>
+                        </div>
 
-{% include carousel_home.html %}
-{{ content }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
 
-<!--<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>-->
+        </div>
+        <br><br>
+        <h1 class="header center">{{ site.title }}</h1>
+        <div class="row center">
+            <h5 class="header col s12 light">{{ content }}</h5>
+        </div>
 
-<!--{% if paginator %}-->
-<!--  {% assign posts = paginator.posts %}-->
-<!--{% else %}-->
-<!--  {% assign posts = site.posts %}-->
-<!--{% endif %}-->
 
-<!--{% for post in posts %}-->
-<!--  {% include archive-single.html %}-->
-<!--{% endfor %}-->
+        <!--   Icon Section   -->
+        <div class="row">
 
-<!--{% include paginator.html %}-->
+
+            <div class="col s12 m6">
+                <div class="icon-block ">
+                    <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+                    <h5 class="center">Profissional</h5>
+
+                    <p class="light">Nossos profissionais possuem vasta experiencia no segmento de demarcação viária e
+                        de estacionamentos bem como execução de serviços de pintura que exigem precisão e perfeição nos
+                        detalhes.</p>
+
+                    <p>
+                        Solicite um orçamento sem compromisso.
+
+                    </p>
+                    <p>
+                        Atendemos em todo o estado.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div class="icon-block">
+                    <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+                    <h5 class="center">Serviços</h5>
+
+                    <p class="light">
+                    <ul>
+                        <li><i class="small material-icons green-text">check_circle</i> Pinturas de pisos industriais e
+                            de garagens
+                        </li>
+                        <li><i class="small material-icons green-text">check_circle</i> Pinturas de faixas de
+                            sinalização
+                        </li>
+                        <li><i class="small material-icons green-text">check_circle</i> Pinturas de vagas de garagem;
+                        </li>
+                        <li><i class="small material-icons green-text">check_circle</i> Quadras poliesportivas (oficiais
+                            e não oficiais);
+                        </li>
+                        <li><i class="small material-icons green-text">check_circle</i> Demarcações que exigem precisão
+                            de projeto ( helipontos, sinalizações, detalhes
+                            arquitetônicos);
+                        </li>
+                        <li><i class="small material-icons green-text">check_circle</i> Pinturas em geral;</li>
+                        <li><i class="small material-icons green-text">check_circle</i> Projetos de sinalização;</li>
+                        <li><i class="small material-icons green-text">check_circle</i> Limpeza e preparação de
+                            superfícies.
+                        </li>
+                    </ul>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr/>
+    <h5 class="center">Serviços Prestados</h5>
+    <ul class="row">
+        {% for post in site.posts %}
+        <div class="col m4 s12">
+
+            <div class="card small">
+                <a href="{{ post.url | relative_url }}">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="{{ post.gallery[0].url | relative_url }}">
+                    </div>
+                    <div class="card-content center">
+                        <span class="card-title activator grey-text text-darken-4">{{ post.title | escape }}</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </ul>
+</div>
+
+</div>
+
+<style>
+    h1.header {
+        color: #e47a0d !important;
+    }
+
+    .outline {
+        color: white;
+        text-shadow: #000 1px 1px 2px;
+        -webkit-font-smoothing: antialiased;
+    }
+</style>

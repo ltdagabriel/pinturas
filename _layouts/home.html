@@ -22,7 +22,10 @@ layout: default
 
         </div>
         <br><br>
-        <h1 class="header center">{{ site.title }}</h1>
+        <div class="caption center-align outline" id="title">
+            <h1>{{ site.title | escape }}</h1>
+            <h2>{{ site.subtitle }}</h2>
+        </div>
         <div class="row center">
             <h5 class="header col s12 light">{{ content }}</h5>
         </div>
@@ -110,7 +113,7 @@ layout: default
 </div>
 
 <style>
-    h1.header {
+    #title {
         color: #e47a0d !important;
     }
 

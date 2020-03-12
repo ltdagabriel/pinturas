@@ -5,8 +5,8 @@ categories:
   - Pintura
 tags:
 gallery:
-  - image_path: /imagens/quadra-poliesportiva/001.jpg
-    url: /imagens/quadra-poliesportiva/001.jpg
-  - image_path: /imagens/quadra-poliesportiva/002.jpg
-    url: /imagens/quadra-poliesportiva/002.jpg
+  - image_path: /assets/imagens/quadra-poliesportiva/001.jpg
+    url: /assets/imagens/quadra-poliesportiva/001.jpg
+  - image_path: /assets/imagens/quadra-poliesportiva/002.jpg
+    url: /assets/imagens/quadra-poliesportiva/002.jpg
 ---

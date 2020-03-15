@@ -1,7 +1,7 @@
 <nav class="black yellow-text" role="navigation">
     <div class="nav-wrapper container">
         <a id="logo-container" class="yellow-text" style="font-size: large" href="{{ "/" | relative_url }}">
-        <img src="favicon.png" style="height: 50%;"/> {{site.title | upcase}} </a>
+        <img src="{{ "favicon.png" | relative_url}}" style="height: 50%;"/> {{site.title | upcase}} </a>
         <a id="logo-container1" class=" yellow-text" href="{{ "/" | relative_url }}">{{site.subtitle}}</a>
         {% assign default_paths = site.pages | map: "path" %}
         {% assign page_paths = site.header_pages | default: default_paths %}

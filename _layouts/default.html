@@ -8,6 +8,11 @@
 {% include header.html %}
 
 <main class="back">
+    <div class="back1">
+        <h1>{{site.title | upcase}}</h1>
+        <h5>{{site.subtitle }}</h5>
+
+    </div>
     {{ content }}
 </main>
 
@@ -19,10 +24,12 @@
 
 <style>
     .back{
-        background-image: url('/assets/18989.jpeg');
-        background-repeat: repeat-y;
+        background-image: url('{{ "assets/demarca 002.png" | relative_url }}');
         background-color: black;
-        background-size: 20%;
+        background-size: 17%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
     }
 
 </style>

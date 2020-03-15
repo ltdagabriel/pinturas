@@ -4,11 +4,10 @@ title: Demarca
 subtitle: Sinalização e Pintura
 email: vanderson_choptian@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Pintura de sinalização viária, demarcação estacionamentos, pintura de piscinas, pintura epóxi.
+  A equipe Demarca possui profissionais especializados em pinturas residenciais e industriais de alta performace.
 baseurl:   # the subpath of your site, e.g. /blog
-url: http://choptian.com.br/pinturas/  # the base hostname & protocol for your site, e.g. http://example.com
+url: http://www.grupodemarca.com.br  # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 
@@ -19,7 +18,7 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
+google_analytics: UA-160727568-1
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

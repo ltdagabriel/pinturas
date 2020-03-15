@@ -81,4 +81,3 @@ gallery:
   - image_path: /assets/imagens/pinturas-em-geral/068.jpg
     url: /assets/imagens/pinturas-em-geral/068.jpg
 ---
-asd a dsa das dsa dsa d

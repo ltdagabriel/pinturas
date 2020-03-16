@@ -6,30 +6,44 @@
 
             <div class="col">
                 <div class="icon-block ">
-                    <p> <i class="material-icons large">contacts</i> Vanderson Choptian </p>
-                    <p> <i class="material-icons large">contact_phone</i> +55 (44) 9 9769-6806 </p>
-                    <p> <i class="material-icons large">contact_mail</i> vanderson_choptian@hotmail.com </p>
+                    <p><i class="material-icons large">contacts</i> Vanderson Choptian </p>
+                    <p>
+                        <a href="tel:+55 (44) 9 9769-6806"> <i class="material-icons large">contact_phone</i>
+                            +55 (44) 9 9769-6806
+                        </a>
+                    </p>
+                    <p>
+                        <a href="tel:+55 (44) 9 8456-8620"> <i class="material-icons large">contact_phone</i>
+                            +55 (44) 9 8456-8620
+                        </a>
+                    </p>
+                    <p><i class="material-icons large">contact_mail</i> vanderson_choptian@hotmail.com </p>
                 </div>
             </div>
 
-<!--            <div class="col s12 m6">-->
-<!--                <div class="icon-block ">-->
-<!--                    <p> <i class="material-icons large">contacts</i> Junior Melgarejo </p>-->
-<!--                    <p> <i class="material-icons large">contact_phone</i> +55 (44) 9 9914-1479 </p>-->
-<!--                    <p> <i class="material-icons large">contact_mail</i> junior.97760401@gmail.com </p>-->
-<!--                </div>-->
-<!--            </div>-->
+            <!--            <div class="col s12 m6">-->
+            <!--                <div class="icon-block ">-->
+            <!--                    <p> <i class="material-icons large">contacts</i> Junior Melgarejo </p>-->
+            <!--                    <p> <i class="material-icons large">contact_phone</i> +55 (44) 9 9914-1479 </p>-->
+            <!--                    <p> <i class="material-icons large">contact_mail</i> junior.97760401@gmail.com </p>-->
+            <!--                </div>-->
+            <!--            </div>-->
         </div>
         <div class="footer-copyright">
             <div class="container">
                 <div>
-                    Feito por <a target="_blank" class="orange-text text-lighten-3" href="http://choptian.com.br">Gabriel
-                    Choptian</a>
                     <span style="text-align: right; float: right">
                 Copyright © 2020 <a href="http://www.choptian.com.br"
-                                    class="orange-text text-lighten-3">{{site.title}}</a>.
+                                    class="orange-text text-lighten-3">{{site.title | upcase}}</a>. | Desenvolvido por <a target="_blank" class="orange-text text-lighten-3" href="http://choptian.com.br">Gabriel
+                    Choptian</a>
                 </span>
                 </div>
             </div>
         </div>
 </footer>
+<style>
+    p a {
+        all: inherit;
+        cursor: pointer;
+    }
+</style>
